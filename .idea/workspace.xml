@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4aa57818-7e33-410b-a3b3-5e233905e34d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/uc5_ValidePassRule1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/brideglabz/registrationproblem/RegistrationProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brideglabz/registrationproblem/RegistrationProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/brideglabz/registrationproblem/Validation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brideglabz/registrationproblem/Validation.java" afterDir="false" />
     </list>
