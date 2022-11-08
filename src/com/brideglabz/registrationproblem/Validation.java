@@ -85,10 +85,18 @@ public class Validation {
             checkPasswordRule1();
         }
     }
+    public void checkPasswordRule4() {
+        System.out.println("-------Password Rule3------");
+        System.out.println("Enter Password : ");
+        String password  = sc.nextLine();
+        if (Pattern.matches("^[A-Z]+[A-Za-z0-9]{7,}[!@#$%^&*()=]+",password)) {
+            System.out.println("Password is Valid");
+        } else {
+            System.out.println("Password is Invalid");
+            checkPasswordRule4();
+        }
+    }
 }
-/*Rule3
-
-– Should
-have at least 1
-numeric number in
-the password - NOTE – All rules must be passed*/
+/*Rule4 – Has exactly
+1 Special Character
+- NOTE – All rules must be passed*/
