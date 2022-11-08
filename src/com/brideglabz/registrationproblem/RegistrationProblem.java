@@ -7,6 +7,8 @@ public class RegistrationProblem {
             validation.checkLastName();
             validation.checkEmail();
             validation.checkPhoneNumber();
+            validation.checkPasswordRule1();
+            validation.checkPasswordRule2();
 
         }
     }
